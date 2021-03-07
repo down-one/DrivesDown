@@ -87,3 +87,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           retain_days: 1
           keep_minimum_runs: 1
+      - name: 'Send mail'
+        uses: dawidd6/action-send-mail@master
+        with:
+          server_address: smtp.163.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 1Download complete
+          body: "ok"
+          to: 2412258222@qq.com
+          from: GitHub Actions
+          content_type: text/plain
