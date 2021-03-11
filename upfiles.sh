@@ -1,6 +1,6 @@
 #!/bin/bash
 #aria2c "magnet:?xt=urn:btih:83908360bba6c64e39d89998193d40494dc8f9a0"
-wget https://nyaa.si/download/1284281.torrent
+wget https://share.acgnx.se/down.php?date=1604469760&hash=73086e86ca496da44a2a567b28334f5954d077c8
 #aria2c -x 64 --seed-time=0 --bt-tracker-connect-timeout=10 --bt-tracker-timeout=10 *.torrent
 for ((i=1, j=15; i<=650; i=i+15, j=j+15))
 do
