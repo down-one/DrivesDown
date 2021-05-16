@@ -1,6 +1,6 @@
 #!/bin/bash
 #aria2c "magnet:?xt=urn:btih:83908360bba6c64e39d89998193d40494dc8f9a0"
-wget https://bangumi.moe/download/torrent/5912e6151a0b230822447d98/[VCB-Studio]%20Fate_Kaleid%20Liner%20Prisma%20Illya%20_%20%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E2%98%86%E4%BC%8A%E8%8E%89%E9%9B%85%20S1-S4%2010-bit%201080p%20HEVC%20BDRip%20[Fin].torrent
+wget https://bangumi.moe/download/torrent/5908fdf46788ae4d5c97c63e/[VCB-Studio]%20Fune%20o%20Amu%20_%20%E7%BC%96%E8%88%9F%E8%AE%B0%2010-bit%201080p%20HEVC%20BDRip%20[Fin].torrent
 #aria2c -x 64 --seed-time=0 --bt-tracker-connect-timeout=10 --bt-tracker-timeout=10 *.torrent
 for ((i=1, j=15; i<=2000; i=i+15, j=j+15))
 do
