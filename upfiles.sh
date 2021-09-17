@@ -1,6 +1,6 @@
 #!/bin/bash
 #aria2c "magnet:?xt=urn:btih:83908360bba6c64e39d89998193d40494dc8f9a0"
-wget https://38a14def5b4acf2eef7364488813ea9b.dlied1.cdntips.net/dlied1.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe?mkey=6144bd1075b5cda0&f=17c5&cip=117.181.235.85&proto=https&access_type=
+wget https://sukebei.nyaa.si/download/3449649.torrent
 aria2c -x 64 --seed-time=0 --bt-tracker-connect-timeout=10 --bt-tracker-timeout=10 *.torrent
 #for ((i=1, j=10; i<=2000; i=i+10, j=j+10))
 #do
